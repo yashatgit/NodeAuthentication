@@ -1,0 +1,38 @@
+{
+  "name": "node-authentication",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Yash Soni",
+  "license": "ISC",
+  "devDependencies": {
+    "gulp": "^3.9.0",
+    "gulp-less": "^3.0.5",
+    "gulp-nodemon": "^2.0.6",
+    "node-inspector": ""
+  },
+  "dependencies": {
+    "bcrypt-nodejs": "0.0.3",
+    "body-parser": "^1.14.2",
+    "connect-flash": "^0.1.1",
+    "cookie-parser": "^1.4.0",
+    "ejs": "^2.3.4",
+    "express": "^4.13.3",
+    "express-react-views": "^0.9.0",
+    "express-session": "^1.13.0",
+    "kerberos": "0.0.17",
+    "material-ui": "^0.14.2",
+    "mongoose": "^4.3.5",
+    "morgan": "^1.6.1",
+    "passport": "^0.3.2",
+    "passport-local": "^1.0.0",
+    "react": "^0.14.6",
+    "react-dom": "^0.14.6",
+    "react-tap-event-plugin": "^0.2.1",
+    "request": "^2.67.0",
+    "lodash": "^4.0.0"
+  }
+}

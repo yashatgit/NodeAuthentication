@@ -1,0 +1,142 @@
+head,
+body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  font-family: 'Roboto', sans-serif;
+}
+.app {
+  background: url("bg.jpg");
+  width: 100%;
+  height: 100%;
+}
+.card {
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 20px 0;
+  position: relative;
+  overflow: inherit !important;
+  top: 100px;
+}
+.error {
+  font-size: 13px;
+  margin: 20px 10px -20px 20px;
+}
+.login .txt {
+  color: #666;
+}
+.signup .txt {
+  color: white;
+}
+.signup.card {
+  background-color: #ed2553 !important;
+}
+.signup .ribbon {
+  color: white;
+}
+.signup .ribbon:before {
+  background-color: white;
+}
+.signup input {
+  color: white;
+  border-bottom: 1px solid white;
+}
+.ribbon {
+  line-height: 30px;
+  padding-left: 20px;
+  position: relative;
+  color: #ed2553;
+  font-size: 18px;
+}
+.ribbon:before {
+  content: "";
+  width: 3px;
+  height: 30px;
+  background-color: #ed2553;
+  position: absolute;
+  left: 0;
+}
+.formContent {
+  padding: 40px 20px 0 20px;
+}
+.plusBtn {
+  position: absolute;
+  right: -28px;
+  top: 20px;
+}
+.closeBtn {
+  position: absolute !important;
+  right: 10px;
+  top: 10px;
+  color: white;
+}
+.fullWidthCenter {
+  width: 100%;
+  text-align: center;
+}
+input {
+  width: 100%;
+  height: 26px;
+  border: none;
+  outline: none;
+  font-family: inherit;
+  font-size: 15px;
+  color: #666;
+  border-bottom: 1px solid #ed2553;
+  margin-bottom: 20px;
+  background-color: transparent;
+}
+button {
+  border-radius: 2px;
+  background-color: white;
+  border: 1px solid #ed2553;
+  width: 100%;
+  padding: 10px;
+  font-size: inherit;
+  font-family: inherit;
+  color: #ed2553;
+  outline: none;
+}
+.userCard {
+  width: 400px;
+  height: 200px;
+  margin: auto;
+  margin-bottom: 30px;
+}
+.userCard .usr--img {
+  width: 40%;
+  height: 100%;
+  background-color: #F7CF53;
+  float: left;
+}
+.userCard .usr--img svg {
+  width: 100% !important;
+  height: 100% !important;
+}
+.userCard .usr--info {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  width: 60%;
+}
+.userCard .user--item {
+  margin: auto 20px;
+}
+.userCard .key {
+  font-size: 12px;
+  color: #999;
+}
+.userCard .label {
+  font-size: 14px;
+  word-wrap: break-word;
+  margin-top: 4px;
+}
+.container {
+  max-width: 1000px;
+  margin: 0 auto;
+  display: flex;
+  flex-flow: row wrap;
+  margin-top: 100px;
+}
